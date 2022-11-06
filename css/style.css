@@ -895,6 +895,13 @@ body {
   .lessons__title {
     font-size: 36px;
   }
+  .body__data-item {
+    width: 100px;
+    height: 95px;
+  }
+  .data__item-number {
+    font-size: 36px;
+  }
   .profession__header-title {
     font-size: 36px;
   }
@@ -919,6 +926,16 @@ body {
   }
   .header__footer-btn {
     margin: 20px 0;
+  }
+  .body__data-item {
+    width: 90px;
+    height: 85px;
+  }
+  .data__item-number {
+    font-size: 32px;
+  }
+  .data__item-text {
+    font-size: 14px;
   }
   .start__header {
     align-items: center;
@@ -1107,6 +1124,11 @@ body {
   }
   .social__item {
     margin-right: 19px;
+  }
+  .body__data-item {
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
   }
 }
 /*----------------------------320----------------------------------------*/
