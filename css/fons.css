@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  src: local("Roboto"), url("../fons/Roboto-Bold.woff2") format("woff2"), url("../fons/Roboto-Bold.woff") format("woff"), url("../fons/Roboto-Bold.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+  src: local("Roboto"), url("../fons/Roboto-Medium.woff2") format("woff2"), url("../fons/Roboto-Medium.woff") format("woff"), url("../fons/Roboto-Medium.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Roboto"), url("../fons/Roboto-Regular.woff2") format("woff2"), url("../fons/Roboto-Regular.woff") format("woff"), url("../fons/Roboto-Regular.eot") format("eot");
+  font-display: swap;
+}/*# sourceMappingURL=fons.css.map */
