@@ -44,8 +44,10 @@ body {
 //--------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------
 .header {
-    background: url("../img/main-screen__bgc.svg") 46% 0 /100% no-repeat;
+    background-image: url("../img/main-screen__bgc.svg") ;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 75% 60%;
     &__top {
         padding-top: 38px;
     }
@@ -863,10 +865,6 @@ body {
 //----------------------------------------------
 /*------------------1350--------------------------*/
 @media (max-width: 1350px) {
-    .header {
-        background: url(../img/main-screen__bgc.svg) 75% 0/0% no-repeat;
-        background-size: auto;
-    }
     .header__footer-inner {
         display: grid;
         grid-template:
@@ -966,9 +964,6 @@ body {
 }
 /*------------------1100--------------------------*/
 @media (max-width: 1100px) {
-    .header {
-        background: url(../img/main-screen__bgc.svg) 72% 100%/175% 110% no-repeat;
-    }
     .header__nav-item {
         margin-right: 25px;
     }
@@ -986,12 +981,6 @@ body {
     .lessons__text {
         text-align: center;
         margin-left: 0;
-    }
-}
-/*------------------1000--------------------------*/
-@media (max-width: 1000px) {
-    .header {
-        background: url(../img/main-screen__bgc.svg) 73% 98%/198% 109% no-repeat;
     }
 }
 /*------------------900---------------------------*/
@@ -1046,9 +1035,6 @@ body {
         box-shadow: 0 2px 20px -4px #ffffff;
         background-color: #fff;
     }
-    .header {
-        background: url(../img/main-screen__bgc.svg) 76% 92%/204% 110% no-repeat;
-    }
     .header__top-inner {
         position: fixed;
         display: flex;
@@ -1096,7 +1082,6 @@ body {
     .uncorrectSeconds {
         font-size: 14px;
     }
-
     .days-block,
     .hours-block,
     .minutes-block,
@@ -1182,16 +1167,12 @@ body {
 }
 /*------------------------650-----------------------------------*/
 @media (max-width: 650px) {
-    .header {
-        background: url(../img/main-screen__bgc.svg) 76% 92%/223% 111% no-repeat;
-    }
     .body__title {
         font-size: 36px;
     }
     .timer-section {
         margin-right: 15px;
     }
-
     .days,
     .hours,
     .minutes,
@@ -1204,7 +1185,6 @@ body {
     .uncorrectSeconds {
         font-size: 14px;
     }
-
     .days-block,
     .hours-block,
     .minutes-block,
@@ -1216,10 +1196,6 @@ body {
 }
 /*------------------------550-----------------------------------*/
 @media (max-width: 550px) {
-    .header {
-        background: url(../img/main-screen__bgc.svg) 76% 231%/300% 107% no-repeat;
-    }
-
     .main__profession {
         margin: 40px 0 60px 0;
     }
@@ -1244,7 +1220,6 @@ body {
     .header__body{
         margin-bottom: 130px;
     }
-
     .header__footer-inner {
         flex-direction: column-reverse;
     }
@@ -1305,7 +1280,6 @@ body {
     .timer-section {
         margin-right: 15px;
     }
-
     .days,
     .hours,
     .minutes,
@@ -1318,7 +1292,6 @@ body {
     .uncorrectSeconds {
         font-size: 12px;
     }
-
     .days-block,
     .hours-block,
     .minutes-block,
@@ -1330,9 +1303,6 @@ body {
 }
 /*----------------------------------------------------*/
 @media (max-width: 450px) {
-    .header {
-        background: url(../img/main-screen__bgc.svg) 76% 231%/320% 107% no-repeat;
-    }
     .start__header {
         display: flex;
         flex-direction: column;
@@ -1390,7 +1360,6 @@ body {
     .uncorrectSeconds {
         font-size: 10px;
     }
-
     .days-block,
     .hours-block,
     .minutes-block,
@@ -1400,9 +1369,4 @@ body {
         height: 65px;
     }
 }
-/*----------------------------320----------------------------------------*/
-@media (max-width: 320px) {
-    .header {
-        background: url(../img/main-screen__bgc.svg) 80% 234%/328% 105.6% no-repeat;
-    }
-}
+
