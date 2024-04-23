@@ -22,7 +22,7 @@ $(function () {
 
 
 
-    const endtime = 'Dec 31 2022, 00:00 GMT+0400';
+    const endtime = 'Dec 31 2024, 00:00 GMT+0400';
     // приводим к стандартному виду 03:04:05, вместо 3:4:5
     function makeCorrectDate(uncorrectDate) {
         let correctDate = uncorrectDate;
